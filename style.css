@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.menus {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.menus li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.59px;
+  color: gray;
+}
+.menus li a:hover {
+  color: #1f1534;
+}
+.healthcare {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.healthcare-text p {
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #7d7987;
+  margin: 26px 0 36px 0;
+}
+.btn {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.59px;
+  color: #458ff6;
+  padding: 17px 51px;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  background-color: white;
+}
+.btn:hover {
+  background-color: #458ff6;
+  color: white;
+}
+
+.services {
+  padding: 50px 0;
+  text-align: center;
+}
+.services h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.services p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  color: #7d7987;
+  max-width: 952px;
+  margin: 40px auto;
+}
+
+.card {
+  width: 380px;
+  background: #e7e7e7;
+  box-shadow: 10px 40px 50px 0px #e5e9f666;
+  padding: 68px 39px 28px 39px;
+  text-align: left;
+  border-radius: 20px;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-top: 10px;
+}
+.card p {
+  margin: 15px 0;
+  text-align: left;
+}
+.katta-ota {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.card:hover {
+  background-color: #458ff6;
+  color: white;
+}
+
+.info {
+  padding: 50px 0;
+}
+.info h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+  margin: 20px auto;
+}
+.info-ota{
+  display: flex;
+  align-items: center;
+  gap: 112px;
+  margin-top: 30px;
+}
+.info-text p{
+  margin: 20px 0;
+  color: gray;
+}
+
+.article{
+  padding: 50px 0;
+  text-align: center;
+}
+.article h2{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.card2{
+  width: 380px;
+}
+.card2-ota{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.card2 img{
+  width: 100%;
+}
+.card2-text{
+  padding: 20px;
+  text-align: left;
+}
+.card2 p{
+  margin: 30px 0;
+  width: 250px;
+}
+.card2 a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #458ff6;
+}
+
+footer{
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+ padding: 100px 0;
+ color: white;
+}
+footer .container{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+footer .container div{
+  width: 300px;
+}
